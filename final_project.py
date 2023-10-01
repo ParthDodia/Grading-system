@@ -1,8 +1,8 @@
 import json
-#enter the path of .json file in main() and terminate() before compiling
 
 def main():
     grades={}
+    #add the path of .json file below
     with open('D:\ClassWork\IS612 - intro to coding\grades.json') as fd:
         grades = json.load(fd)
     #print(grades)
